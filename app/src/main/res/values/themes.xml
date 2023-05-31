@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+
+    <style name="PopUpTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+
+    <style name="floatingButtonCol" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:tint">@color/floatingBtnIconColor</item>
+        <item name="android:backgroundTint">@color/floatingBtnBackColor</item>
+    </style>
+
+    <style name="bottom_background" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:background">@drawable/bottom_background_day</item>
+    </style>
+
+
+    <style name="dimTextStyle" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:textColor">@color/dimTextColor</item>
+    </style>
+
+    <style name="regularTextStyle" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="PopUpBoxStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColorHint">@color/textColor</item>
+        <item name="hintTextColor">@color/textColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>
